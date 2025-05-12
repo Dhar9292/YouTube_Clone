@@ -15,7 +15,7 @@ import { SiTrendmicro } from "react-icons/si";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { PiFilmSlateLight } from "react-icons/pi";
 import { CgMediaLive } from "react-icons/cg";
-import { SiYoutubegaming } from "react-icons/si";
+ import { SiYoutubegaming } from "react-icons/si";
 import { FaRegNewspaper } from "react-icons/fa";
 import { TfiCup } from "react-icons/tfi";
 import { PiLightbulbLight } from "react-icons/pi";
@@ -230,7 +230,7 @@ function Sidebar() {
         <hr />
       </div>
       <br />
-      <span className="text-xs text-gray-600 font-semibold">
+      <span className="hidden md:block group-hover:block text-xs text-gray-600 space-y-1 mt-6">
         About Press Copyright <br /> Contact us Creators <br /> Advertise
         Developers <br />
         <p className="mt-3">Terms Privacy Policy & Safety</p> How YouTube works{" "}

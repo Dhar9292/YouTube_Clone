@@ -51,7 +51,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center fixed top-0 w-full bg-white px-4 py-2 md:px-6">
+    <div className="flex justify-between items-center fixed top-0 w-full bg-white px-6 py-2 md:px-6">
       {/* Mobile Search Overlay */}
       {showMobileSearch && (
         <div className="md:hidden absolute top-0 left-0 right-0 bg-white p-2 flex items-center z-50">
